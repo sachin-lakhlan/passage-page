@@ -7,6 +7,7 @@
     --color-grey: #C3C0D4;
     --color-blue: #006EE6;
     --color-lightBlack: #293844;
+    --light-blue: #E6F1FD;
 }
 
 .fs-sm {
@@ -39,4 +40,8 @@
 
 .bg-blue {
     background-color: var(--color-blue);
+}
+
+.light-blue {
+    background-color: var(--light-blue);
 }
