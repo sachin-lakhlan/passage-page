@@ -1,13 +1,15 @@
 :root {
     --fs-sm: 16px;
     --fs-md: 20px;
-    --fs-lg: 32px;
-    --fs-xl: 48px;
+    --fs-lg: 24px;
+    --fs-xl: 32px;
+    --fs-2xl: 48px;
     /* ---color--- */
     --color-grey: #C3C0D4;
     --color-blue: #006EE6;
     --color-lightBlack: #293844;
     --light-blue: #E6F1FD;
+    --color-white: white;
 }
 
 .fs-sm {
@@ -24,6 +26,10 @@
 
 .fs-xl {
     font-size: var(--fs-xl) !important;
+}
+
+.fs-2xl {
+    font-size: var(--fs-2xl) !important;
 }
 
 .text-grey {
@@ -44,4 +50,11 @@
 
 .light-blue {
     background-color: var(--light-blue);
+}
+
+@media (max-width:575.98px) {
+    :root {
+        --fs-2xl: 20px;
+        --fs-lg: 16px;
+    }
 }

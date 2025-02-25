@@ -10,11 +10,88 @@
     <link rel="shortcut icon" href="assets/image/svg/facicon.svg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body class="font-rubik">
+    <!-- <header class="min-vh-100 bg-img position-relative">
+        <nav class="pt-15 nav-bg">
+            <div class="d-flex justify-content-between container mx-w-1140 justify-content-center align-items-center">
+                <a href="#">
+                    <img src="assets/image/svg/nav-logo.svg" alt="logo-svg">
+                </a>
+                <div onclick="navbarbtn()" class="z-5 d-lg-none">
+                    <span class="menu-lines" id="rotats"></span>
+                    <span class="menu-lines" id="transparent"></span>
+                    <span class="menu-lines" id="rotats2"></span>
+                </div>
+                <ul id="nav-name"
+                    class="d-flex gap-24 pt-20 list-unstyled nav-link justify-content-center align-items-center ">
+                    <li>
+                        <a class="fs-sm fw-normal lh-18 text-decoration-none nav-tags" href="#">About
+                            us</a>
+                    </li>
+                    <li>
+                        <a class="fs-sm fw-normal lh-18 text-decoration-none nav-tags" href="#">Products</a>
+                    </li>
+                    <li class="pr-40">
+                        <a class="fs-sm fw-normal lh-18 text-decoration-none nav-tags" href="#">Contact</a>
+                    </li>
+                    <li>
+                        <button class="nav-btn border-0 fs-sm fw-medium lh-18">Get Started</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container mx-w-1140">
+            <div class="slider-content mt-5">
+                <div>
+                    <p class="slider-para fw-bold fs-2xl lh-56 text-white mx-w-679">We help leading enterprises use
+                        <span class="text-blue">emerging
+                            technology</span> to reach their goals faster
+                    </p>
+                </div>
+                <div>
+                    <p class="slider-para fw-bold fs-2xl lh-56 text-white mx-w-679">We help leading enterprises use
+                        <span class="text-blue">emerging
+                            technology</span> to reach their goals faster
+                    </p>
+                </div>
+                <div>
+                    <p class="slider-para fw-bold fs-2xl lh-56 text-white mx-w-679">We help leading enterprises use
+                        <span class="text-blue">emerging
+                            technology</span> to reach their goals faster
+                    </p>
+                </div>
+            </div>
+            <img class="position-absolute play-svg" src="./assets/image/svg/play-btn.svg" alt="play-svg">
+            <div class="position-absolute bottom-card d-flex ">
+                <div>
+                    <p class="fw-normal fs-sm lh-24 text-white mx-w-379">Eu tincidunt vel orci aliquam vitae nibh
+                        tellus
+                        tortor mauris pharetra nec senectus egestas enim.</p>
+                    <button class="talk-btn border-0 fw-medium fs-sm lh-18 mt-2">Talk to us</button>
+                </div>
+                <div class="courser-pointer">
+                    <a class="scroll-down d-flex justify-content-center align-items-center mx-auto" href="#section-2">
+                        <img src="./assets/image/svg/scrol-down-svg.svg" alt="scroll-down-svg">
+                    </a>
+                    <p class="fw-normal fs-sm lh-24 text-center text-grey pt-2">Scroll Down</p>
+                </div>
+            </div>
+            <button id="backToTop" class="btn btn-primary">
+                <img src="./assets/image/png/back-to-top-image.png" alt="up-arrow">
+            </button>
+        </div>
+    </header> -->
     <!-- section-3-->
-    <section class="font-rubik">
+    <!-- <section>
         <div class="container mx-w-1140">
             <div class="row">
                 <div class="col-6">
@@ -37,7 +114,7 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <h2 class="fw-semibold fs-xl lh-56 mt-169">Our Edge</h2>
+                    <h2 class="fw-semibold fs-2xl lh-56 mt-169">Our Edge</h2>
                     <p class="fs-sm lh-24 fw-normal opacity-70 mx-w-558 pb-169">At passage labs, we empower enterprisesy
                         with
                         next-gen
@@ -58,11 +135,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- ---section-4-- -->
-    <section class="section-4-bg pb-92 position-relative font-rubik">
+    <section class="section-4-bg pb-92 position-relative">
         <div class="container mx-w-1140">
-            <p class="fw-semibold fs-xl lh-56 mx-w-558 pt-93 text-white z-1 position-relative">Ready
+            <p class="fw-semibold fs-2xl lh-56 mx-w-558 pt-93 text-white z-1 position-relative">Ready
                 to experience the
                 power of
                 emerging
@@ -79,17 +156,108 @@
         <img class="position-absolute section-4-right-top-image" src="assets/image/png/section-4-right-top-image.png"
             alt="section-4-right-top-image">
     </section>
-    <!-- --------section-6------ -->
-    <section class="font-rubik position-relative mb-80">
+    <!-- section-5 -->
+    <section class="pt-130 pb-80 justify-content-center font-poppins">
         <div class="container mx-w-1140">
-            <h2 class="fw-semibold lh-56 fs-xl mt-50 d-flex justify-content-center mb-11">Contact us</h2>
+            <p class="fw-semibold fs-2xl lh-56 text-center">FAQs</p>
+            <div class="justify-content-center d-flex">
+                <div class="accordion w-100" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button fw-semibold fs-lg lh-26 popins-font accordion-text"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                Q1. Fermentum in hac mattis viverra orem commodo?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body fw-normal fs-sm lh-24 mx-w-702">Mknki consequat sagittis
+                                elementum tincidunt sed quis dictum
+                                tiam arcu tempor pulvinar volutpat massa eget praesent. </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-semibold fs-lg lh-26 popins-font" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                Q2. Viverra ipsum gravida etiam sem iaculis?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body fw-normal fs-sm lh-24 mx-w-702">Mknki consequat sagittis
+                                elementum tincidunt sed quis dictum
+                                tiam arcu tempor pulvinar volutpat massa eget praesent.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-semibold fs-lg lh-26 popins-font" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
+                                Q3. Morbi curabitur suscipit id posuere?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body fw-normal fs-sm lh-24 mx-w-702">Mknki consequat sagittis
+                                elementum tincidunt sed quis dictum
+                                tiam arcu tempor pulvinar volutpat massa eget praesent.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-semibold fs-lg lh-26 popins-font" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                aria-controls="collapseFour">
+                                Q4. Cursus sit sit velsem accumsan varius sed auris?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body fw-normal fs-sm lh-24 mx-w-702">Mknki consequat sagittis
+                                elementum tincidunt sed quis dictum
+                                tiam arcu tempor pulvinar volutpat massa eget praesent.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-semibold fs-lg lh-26 popins-font" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                                aria-controls="collapseFive">
+                                Q5. Dui tincidunt sed eu convallis quis ultrices?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body fw-normal fs-sm lh-24 mx-w-702">Mknki consequat sagittis
+                                elementum tincidunt sed quis dictum
+                                tiam arcu tempor pulvinar volutpat massa eget praesent.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------section-6------ -->
+    <section class=" mb-80">
+        <div class="container mx-w-1140">
+            <h2 class="fw-semibold lh-56 fs-2xl mt-50 d-flex justify-content-center mb-11">Contact us</h2>
             <p class="fw-normal fs-sm lh-24 opacity-70 d-flex justify-content-center mb-80">Commodo faucibus rhoncus sed
                 dictum pellentesque.</p>
             <div class="row">
-                <div class="col-4">
-                    <div class="d-flex flex-column align-items-center section-6-box">
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex flex-column align-items-center section-6-box pb-63 position-relative">
                         <div class="section-6-icon d-flex justify-content-center align-items-center position-absolute">
-                            <img src="assets/image/svg/call-icon.svg" alt="call-icon">
+                            <svg width="37" height="35" viewBox="0 0 37 35" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M25.5494 22.1904L24.6236 23.1121C24.6236 23.1121 22.42 25.3014 16.4075 19.3235C10.395 13.3455 12.5985 11.1562 12.5985 11.1562L13.1805 10.5743C14.619 9.14592 14.7553 6.85078 13.4999 5.17419L10.9362 1.7498C9.38169 -0.325593 6.38051 -0.600277 4.60016 1.16991L1.40568 4.34404C0.524659 5.22302 -0.0654033 6.35838 0.00581109 7.6199C0.188934 10.849 1.64985 17.7934 9.79677 25.8955C18.4381 34.486 26.5464 34.8279 29.8609 34.5186C30.9108 34.4209 31.8224 33.8878 32.5569 33.1553L35.4461 30.2823C37.3995 28.3433 36.8501 25.0166 34.3515 23.6594L30.4652 21.5454C28.8252 20.6542 26.8312 20.9166 25.5494 22.1904Z"
+                                    fill="#006EE6" />
+                            </svg>
+
                         </div>
                         <p class="fw-semibold fs-sm lh-24 mt-59">Phone</p>
                         <div class="d-flex flex-column mt-11">
@@ -101,10 +269,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="d-flex flex-column align-items-center section-6-box">
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex flex-column align-items-center section-6-box pb-63 position-relative">
                         <div class="section-6-icon d-flex justify-content-center align-items-center position-absolute">
-                            <img src="assets/image/svg/gmail-icon.svg" alt="call-icon">
+                            <svg width="30" height="24" viewBox="0 0 30 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M3 24C2.175 24 1.4685 23.706 0.880502 23.118C0.292502 22.53 -0.000997453 21.824 2.54669e-06 21V3C2.54669e-06 2.175 0.294003 1.4685 0.882002 0.880502C1.47 0.292502 2.176 -0.000997453 3 2.54669e-06H27C27.825 2.54669e-06 28.5315 0.294002 29.1195 0.882002C29.7075 1.47 30.001 2.176 30 3V21C30 21.825 29.706 22.5315 29.118 23.1195C28.53 23.7075 27.824 24.001 27 24H3ZM15 13.5L27 6V3L15 10.5L3 3V6L15 13.5Z"
+                                    fill="#006EE6" />
+                            </svg>
+
+
                         </div>
                         <p class="fw-semibold fs-sm lh-24 mt-59">E-mail</p>
                         <div class="d-flex flex-column mt-11">
@@ -115,10 +290,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="d-flex flex-column align-items-center section-6-box">
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex flex-column align-items-center section-6-box pb-63 position-relative">
                         <div class="section-6-icon d-flex justify-content-center align-items-center position-absolute">
-                            <img src="assets/image/svg/map-icon.svg" alt="call-icon">
+                            <svg width="28" height="36" viewBox="0 0 28 36" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14 0.181885C10.2883 0.186264 6.7299 1.66266 4.10535 4.28722C1.48079 6.91177 0.00439367 10.4702 1.48946e-05 14.1819C-0.0044306 17.215 0.986352 20.1659 2.82037 22.5818C2.82037 22.5818 3.20219 23.0846 3.26455 23.1571L14 35.8182L24.7405 23.1508C24.7965 23.0833 25.1796 22.5818 25.1796 22.5818L25.1809 22.578C27.014 20.1632 28.0043 17.2137 28 14.1819C27.9956 10.4702 26.5192 6.91177 23.8946 4.28722C21.2701 1.66266 17.7117 0.186264 14 0.181885ZM14 19.2728C12.9931 19.2728 12.0088 18.9742 11.1716 18.4148C10.3344 17.8554 9.68193 17.0603 9.29661 16.1301C8.91129 15.1998 8.81048 14.1762 9.00691 13.1887C9.20334 12.2011 9.6882 11.294 10.4002 10.582C11.1122 9.87007 12.0193 9.38521 13.0068 9.18878C13.9943 8.99235 15.018 9.09316 15.9482 9.47848C16.8784 9.8638 17.6735 10.5163 18.2329 11.3535C18.7923 12.1907 19.0909 13.175 19.0909 14.1819C19.0892 15.5315 18.5523 16.8254 17.5979 17.7798C16.6436 18.7342 15.3497 19.2711 14 19.2728Z"
+                                    fill="#006EE6" />
+                            </svg>
+
                         </div>
                         <p class="fw-semibold fs-sm lh-24 mt-59">Address</p>
                         <div class="d-flex flex-column mt-11">
@@ -131,9 +312,106 @@
             </div>
         </div>
     </section>
+    <!-- ------------footer----------- -->
+    <footer class="bg-black pt-65">
+        <div class="container mx-w-1140">
+            <div class="row">
+                <div class="col-lg-5 col-md-6 md-center">
+                    <img src="assets/image/svg/footer-logo.svg" alt="">
+                    <p class="fw-normal fs-sm lh-24 text-white opacity-70 mx-w-324 mt-21 mb-40">Consectetur rnare
+                        consequat
+                        vehicula
+                        metus
+                        sit rhoncus odio et amet.
+                    </p>
+                    <div class="pb-167 d-flex gap-16">
+                        <div class="d-flex align-items-center footer-icon justify-content-center"><img
+                                src="assets/image/svg/footer-facebook-icon.svg" alt="footer-facebook-icon"></div>
+                        <div class="d-flex align-items-center footer-icon justify-content-center"><img
+                                src="assets/image/svg/footer-instagram-icon.svg" alt="footer-facebook-icon">
+                        </div>
+                        <div class="d-flex align-items-center footer-icon justify-content-center"><img
+                                src="assets/image/svg/footer-linkdin-icon.svg" alt="footer-facebook-icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6">
+                    <div class="pt-80 pb-164">
+                        <div class="row">
+                            <div class="col-2 justify-content-end d-flex">
+                                <ul>
+                                    <li class="fw-normal fs-sm lh-24 list-unstyled text-white mb-20">Products</li>
+                                    <li class="list-unstyled mb-20"><a
+                                            class="text-decoration-none opacity-75 text-white" href="#">Links</a></li>
+                                    <li class="list-unstyled mb-20"><a
+                                            class="text-decoration-none opacity-75 text-white" href="#">Links</a></li>
+                                    <li class="list-unstyled mb-20"><a
+                                            class="text-decoration-none opacity-75 text-white" href="#">Links</a></li>
+                                    <li class="list-unstyled"><a class="text-decoration-none opacity-75 text-white"
+                                            href="#">Links</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-2 justify-content-end d-flex">
+                                <ul>
+                                    <li class="fw-normal fs-sm lh-24 list-unstyled text-white mb-20">About us</li>
+                                    <li class="list-unstyled mb-20"><a
+                                            class="text-decoration-none opacity-75 text-white" href="#">Links</a></li>
+                                    <li class="list-unstyled mb-20"><a
+                                            class="text-decoration-none opacity-75 text-white" href="#">Links</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-2 justify-content-end d-flex">
+                                <ul>
+                                    <li class="fw-normal fs-sm lh-24 list-unstyled text-white mb-20">Contact</li>
+                                    <li class="list-unstyled mb-20"><a
+                                            class="text-decoration-none opacity-75 text-white" href="#">Links</a></li>
+                                    <li class="list-unstyled mb-20"><a
+                                            class="text-decoration-none opacity-75 text-white" href="#">Links</a></li>
+                                    <li class="list-unstyled mb-20"><a
+                                            class="text-decoration-none opacity-75 text-white" href="#">Links</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-2 justify-content-end d-flex">
+                                <ul>
+                                    <li class="fw-normal fs-sm lh-24 list-unstyled text-white mb-20">Terms</li>
+                                    <li class="list-unstyled mb-20"><a
+                                            class="text-decoration-none opacity-75 text-white" href="#">Links</a></li>
+                                    <li class="list-unstyled mb-20"><a
+                                            class="text-decoration-none opacity-75 text-white" href="#">Links</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-2 justify-content-end d-flex">
+                                <ul>
+                                    <li class="fw-normal fs-sm lh-24 list-unstyled text-white mb-20">Privacy</li>
+                                    <li class="list-unstyled mb-20"><a
+                                            class="text-decoration-none opacity-75 text-white" href="#">Links</a></li>
+                                    <li class="list-unstyled mb-20"><a
+                                            class="text-decoration-none opacity-75 text-white" href="#">Links</a></li>
+                                    <li class="list-unstyled mb-20"><a
+                                            class="text-decoration-none opacity-75 text-white" href="#">Links</a></li>
+                                    <li class="list-unstyled"><a class="text-decoration-none opacity-75 text-white"
+                                            href="#">Links</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-line"></div>
+        <p class="fw-normal fs-sm lh-24 text-white opacity-70 text-center m-0 py-16">copyright©2024 Passage (All rights
+            reserved)</p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/app.js"></script>
 </body>
 
 </html>
