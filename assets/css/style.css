@@ -446,12 +446,13 @@
 .padding-all-btn {
     padding: 14px 16px 14px 16px;
     background-color: var(--color-blue);
+    color: white;
     border: none;
 }
 
 .padding-all-btn:hover {
-    background-color: rgb(26, 81, 191);
-    color: var(--color-blue);
+    background-color: white;
+    color: #006EE6 !important;
 }
 
 .section-4-left-bottom-image {
@@ -663,5 +664,3 @@
         top: 65.50px;
     }
 }
-
-@media (max-width: 1399.98px) {}
