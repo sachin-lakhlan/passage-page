@@ -12,21 +12,21 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
         integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
         integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 
 <body class="font-rubik">
     <header class="min-vh-100 bg-img position-relative">
-        <nav class="pt-16 nav-bg">
+        <nav class="py-3 nav-bg">
             <div class="d-flex justify-content-between container mx-w-1140 justify-content-center align-items-center">
                 <a href="#">
                     <img src="assets/image/svg/nav-logo.svg" alt="logo-svg">
                 </a>
-                <div onclick="navbarbtn()" class="z-5 d-lg-none">
+                <div onclick="navbarbtn()" class="z-5 d-md-none">
                     <span class="menu-lines" id="rotats"></span>
                     <span class="menu-lines" id="transparent"></span>
                     <span class="menu-lines" id="rotats2"></span>
@@ -72,9 +72,10 @@
             </div>
             <img class="position-absolute play-svg z-2 position-relative" src="./assets/image/svg/play-btn.svg"
                 alt="play-svg">
-            <div class="position-absolute bottom-card d-flex ">
+            <div class="position-absolute bottom-card d-flex">
                 <div>
-                    <p class="fw-normal fs-sm lh-24 text-white mx-w-379 z-2 position-relative">Eu tincidunt vel orci
+                    <p class="fw-normal fs-sm lh-24 text-white mx-w-379 z-2 position-relative">
+                        Eu tincidunt vel orci
                         aliquam vitae nibh
                         tellus
                         tortor mauris pharetra nec senectus egestas enim.</p>
@@ -93,80 +94,116 @@
                 <img src="./assets/image/png/back-to-top-image.png" alt="up-arrow">
             </button>
         </div>
-        <!-- <img class="position-absolute header-top-left-image z-1" src="assets/image/png/header-top-left-image.png"
-            alt="header-top-left-image"> -->
-        <img class="position-absolute header-bottom-right-image" src="assets/image/png/header-bottom-right-image.png"
-            alt="header-bottom-right-image">
+        <img class="position-absolute header-top-left-image z-1 w-100 mx-w-1096"
+            src="assets/image/png/header-top-left-image.png" alt="header-top-left-image">
+        <img class="position-absolute header-bottom-right-image mx-w-1104 w-100"
+            src="assets/image/png/header-bottom-right-image.png" alt="header-bottom-right-image">
     </header>
-    <!-- ------------section-2--------------- -->
-    <section class="pt-100 pb-130" id="section-2">
+    <!-- section-2 -->
+    <section id="section-2" class="d-flex justify-content-center align-items-center mt-100 mb-100">
         <div class="container mx-w-1140">
-            <p class="fw-semibold fs-2xl lh-56 text-center m-0">Our Innovative Solutions</p>
+            <p class="fw-semibold fs-2xl lh-56 text-center m-0 ">Our Innovative Solutions</p>
             <p class="fw-normal fs-sm lh-24 mx-w-643 mx-auto text-center m-0 pt-3">Explore our suite of products
                 designed to
                 empower enterprises with cutting-edge technology in AI, data
                 management, and blockchain.</p>
-            <div class="row">
-                <div class="col-md-4 center">
-                    <div class="position-relative section-2-img-box sec-2-box-1 mt-100 overflow-hidden">
-                        <img class="w-100 mx-w-270" src="assets/image/png/section-2-image-1.png" alt="section-2-img-1">
-                        <p class="top-0 pt-2 fw-medium fs-xl lh-48 left-44 position-absolute">Passage Protocol</p>
-                        <div class="sec-2-box-content position-absolute">
-                            <p class="sec-2-box-text fw-medium fs-sm lh-24 text-white pl-20 mx-w-259 pt-30"> Elevating
-                                customer
-                                experience with Digital Innovation</p>
-                            <p class="d-none box-1-text fs-sm fw-normal lh-24 text-white pl-20 mx-w-324">Add the power
-                                of AI to your data stack. Works with all of your data sources - including traditionally
-                                siloed - including traditionally siloed ones - to give you the most real-time,
-                                comprehensive view into your business.</p>
-                            <p class="bottom-0 hover-head-text pt-2 fw-medium fs-xl lh-48 left-44 position-absolute">
-                                Passage Protocol</p>
-                            <button class="talk-btn border-0 fw-medium fs-sm lh-18 mt-2 ml-20 mb-30">Learn
+            <div class="row mt-100">
+                <div class="col-lg-4 col-12 col-sm-6 mb-5 mx-auto d-flex justify-content-center">
+                    <div class="card-box position-relative">
+                        <div class="d_none">
+                            <h2
+                                class="fw-medium fs-xl lh-48 text-center text-white opacity-15 mb-0 top-10 left-47 position-absolute">
+                                Passage Protocol</h2>
+                            <p
+                                class=" fw-medium fs-6 lh-24 text-white max-w-244 position-absolute bottom_97 mb-0 left-20 z-1">
+                                Elevating customer experience with Digital Innovation</p>
+                            <button
+                                class="nav-btn fw-medium fs-6 lh-18 text-white position-absolute bottom-20 z-1">Learn
                                 more</button>
                         </div>
-                        <div class="blur-box position-absolute top-55 left-20"></div>
+                        <div class="circle">
+                            <div class="d-none d_block">
+                                <h2 class="fw-medium fs-5 lh-30 text-white pt-30 px-20 mb-12">
+                                    Elevating customer experience with Digital Innovation</h2>
+                                <p class="fs-6 fw-normal lh-24 text-white px-20 mb-30">
+                                    Add
+                                    the power of AI to your data stack. Works with all of your data sources - including
+                                    traditionally siloed - including
+                                    traditionally siloed ones - to give you the most real-time, comprehensive view into
+                                    your business.</p>
+                                <button class="nav-btn fw-medium fs-6 lh-18 text-white">Learn
+                                    more</button>
+                                <p
+                                    class="fw-medium fs-xl lh-48 text-center opacity-15 text-white position-absolute bottom-20 left">
+                                    Passage Protocol</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 center">
-                    <div class="position-relative section-2-img-box sec-2-box-1 mt-100 overflow-hidden">
-                        <img class="w-100 mx-w-270" src="./assets/image/png/section-2-image-2.png"
-                            alt="section-2-img-1">
-                        <p class="top-0 pt-2 fw-medium fs-xl lh-48 left-44 position-absolute">
-                            Passage Protocol</p>
-                        <p class="top-0 pt-2 fw-medium fs-xl lh-48 left-40 position-absolute ">Fuze</p>
-                        <div class="sec-2-box-content position-absolute">
-                            <p class="sec-2-box-text fw-medium fs-md lh-30 text-white pl-20 mx-w-259 pt-30">Unleashing
-                                Data’s Full Potential</p>
-                            <p class="d-none box-1-text fs-sm fw-normal lh-24 text-white pl-20 mx-w-324">Add the power
-                                of AI to your data stack. Works with all of your data sources - including traditionally
-                                siloed - including traditionally siloed ones - to give you the most real-time,
-                                comprehensive view into your business.</p>
-                            <p class="bottom-0 hover-head-text pt-2 fw-medium fs-xl lh-48 left-40 position-absolute">
-                                Fuze</p>
-                            <button class="talk-btn border-0 fw-medium fs-sm lh-18 mt-2 ml-20 mb-30">Learn
+                <div class="col-lg-4 col-12 col-sm-6 mb-5 mx-auto d-flex justify-content-center">
+                    <div class="card-box-2 position-relative">
+                        <div class="d_none">
+                            <h2
+                                class="fw-medium fs-xl lh-48 text-center text-white opacity-15 mb-0 top-10 left-145 position-absolute">
+                                Fuze</h2>
+                            <p
+                                class="fw-medium fs-6 lh-24 text-white max-w-244 position-absolute bottom_97 mb-0 left-20 z-1">
+                                Unleashing Data’s Full Potential</p>
+                            <button
+                                class="nav-btn fw-medium fs-6 lh-18 text-white position-absolute bottom-20 z-1">Learn
                                 more</button>
                         </div>
-                        <div class="blur-box position-absolute top-55 left-20"></div>
+                        <div class="circle">
+                            <div class="d-none d_block">
+                                <h2 class="fw-medium fs-5 lh-30 text-white pt-30 px-20 mb-12">
+                                    Unleashing Data’s Full Potential</h2>
+                                <p class="fs-6 fw-normal lh-24 text-white px-20 mb-30">
+                                    Add
+                                    the power of AI to your data stack. Works with all of your data sources - including
+                                    traditionally siloed - including
+                                    traditionally siloed ones - to give you the most real-time, comprehensive view into
+                                    your
+                                    business.</p>
+                                <button class="nav-btn fw-medium fs-6 lh-18 text-white">Learn
+                                    more</button>
+                                <p
+                                    class="fw-medium fs-xl lh-48 text-center opacity-15 text-white position-absolute bottom-20 left-145">
+                                    Fuze</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 center">
-                    <div class="position-relative section-2-img-box sec-2-box-1 mt-100 overflow-hidden">
-                        <img class="w-100 mx-w-270" src="./assets/image/png/section-2-image-3.png"
-                            alt="section-2-img-1">
-                        <p class="top-0 pt-2 fw-medium fs-xl lh-48 left-40 position-absolute opacity-50">GYSR</p>
-                        <div class="sec-2-box-content position-absolute">
-                            <p class="sec-2-box-text fw-medium fs-sm lh-24 text-white pl-20 mx-w-259 pt-30">Trustless
-                                Rewards and Incentives</p>
-                            <p class="d-none box-1-text fs-sm fw-normal lh-24 text-white pl-20 mx-w-324">Add the power
-                                of AI to your data stack. Works with all of your data sources - including traditionally
-                                siloed - including traditionally siloed ones - to give you the most real-time,
-                                comprehensive view into your business.</p>
-                            <p class="bottom-0 hover-head-text pt-2 fw-medium fs-xl lh-48 left-40 position-absolute">
-                                GYSR</p>
-                            <button class="talk-btn border-0 fw-medium fs-sm lh-18 mt-2 ml-20 mb-30">Learn
+                <div class="col-lg-4 col-12 col-sm-6 mb-5 mx-auto d-flex justify-content-center">
+                    <div class="card-box-3 position-relative">
+                        <div class="d_none">
+                            <h2
+                                class="fw-medium fs-xl lh-48 text-center text-white opacity-15 mb-0 top-10 left-140 position-absolute">
+                                GYSR</h2>
+                            <p
+                                class="fw-medium fs-6 lh-24 text-white max-w-244 position-absolute bottom_97 mb-0 left-20 z-1">
+                                Trustless Rewards and <br>Incentives</p>
+                            <button
+                                class="nav-btn fw-medium fs-6 lh-18 text-white position-absolute bottom-20 z-1">Learn
                                 more</button>
                         </div>
-                        <div class="blur-box position-absolute top-55 left-20"></div>
+                        <div class="circle position-relative">
+                            <div class="d-none d_block">
+                                <h2 class="fw-medium fs-5 lh-30 text-white pt-30 px-20 mb-12">
+                                    Trustless Rewards and Incentives</h2>
+                                <p class="fs-6 fw-normal lh-24 text-white px-20 mb-30">
+                                    Add
+                                    the power of AI to your data stack. Works with all of your data sources - including
+                                    traditionally siloed - including
+                                    traditionally siloed ones - to give you the most real-time, comprehensive view into
+                                    your
+                                    business.</p>
+                                <button class="nav-btn fw-medium fs-6 lh-18 text-white">Learn
+                                    more</button>
+                                <p
+                                    class="fw-medium fs-xl lh-48 text-center opacity-15 text-white position-absolute bottom-20 left-140">
+                                    GYSR</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -176,7 +213,7 @@
     <section>
         <div class="container mx-w-1140">
             <div class="row">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-5">
                     <div class="row">
                         <div class="col-5">
                             <div class="mb-24 w-100 mt-60"> <img class=" w-100" src="assets/image/png/grid-image-1.png"
@@ -189,7 +226,7 @@
                             <div class=" mb-24 mt-60"><img class="object-fit-cover w-100-sm"
                                     src="assets/image/png/grid-image-3.png" alt="image-3">
                             </div>
-                            <div class=" mb-24"><img class="w-100-sm" src="assets/image/png/grid-image-4.png"
+                            <div class="mb-24 w-100"><img class="w-100-sm w-100" src="assets/image/png/grid-image-4.png"
                                     alt="image-4">
                             </div>
                             <div class=""><img class="pb-60 w-100-sm" src="assets/image/png/grid-image-5.png"
@@ -198,7 +235,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-7">
                     <h2 class="fw-semibold fs-2xl lh-56 mt-169">Our Edge</h2>
                     <p class="fs-sm lh-24 fw-normal opacity-70 mx-w-558 pb-169">At passage labs, we empower enterprisesy
                         with
@@ -221,24 +258,23 @@
             </div>
         </div>
     </section>
-    <!-- ---section-4-- -->
+    <!-- section-4 -->
     <section class="section-4-bg pb-92 position-relative">
         <div class="container mx-w-1140">
-            <p class="fw-semibold fs-2xl lh-56 mx-w-558 pt-93 text-white z-1 position-relative">Ready
-                to experience the
-                power of
-                emerging
-                technology
-                on your
-                business?
-            </p>
-            <button class="text-white fw-medium fs-sm lh-18 section-4-btn b-radius-51 padding-all-btn mt-40 z-1
+            <h2 class="fw-semibold fs-2xl lh-56 mx-w-558 pt-93 text-white z-1 position-relative">Ready
+                to experience the power of emerging technology on your business?
+            </h2>
+            <button class="text-white fw-medium fs-sm lh-18 section-4-btn b-radius-51 padding-all-btn mt-40 z-2
                 position-relative">Get
                 Started</button>
         </div>
-        <img class="position-absolute section-4-left-bottom-image"
+        <img class="position-absolute section-4-left-bottom-image z-1"
+            src="assets/image/png/section-4-left-bottom-layer.png" alt="">
+        <img class="position-absolute section-4-right-top-image z-1"
+            src="assets/image/png/section-4-right-top-layer.png" alt="">
+        <img class="position-absolute section-4-left-bottom-image w-100 max-w-745"
             src="assets/image/png/section-4-left-bottom-image.png" alt="section-4-left-bottom-image">
-        <img class="position-absolute section-4-right-top-image" src="assets/image/png/section-4-right-top-image.png"
+        <img class="position-absolute section-4-right-top-image " src="assets/image/png/section-4-right-top-image.png"
             alt="section-4-right-top-image">
     </section>
     <!-- section-5 -->
@@ -326,15 +362,15 @@
             </div>
         </div>
     </section>
-    <!-- --------section-6------ -->
+    <!--section-6 -->
     <section class=" mb-80">
         <div class="container mx-w-1140">
             <h2 class="fw-semibold lh-56 fs-2xl mt-50 d-flex justify-content-center mb-11">Contact us</h2>
             <p class="fw-normal fs-sm lh-24 opacity-70 d-flex justify-content-center mb-80">Commodo faucibus rhoncus sed
                 dictum pellentesque.</p>
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="d-flex flex-column align-items-center section-6-box pb-63 position-relative">
+                <div class="col-lg-4 col-md-6 col-12 justify-content-center d-flex align-items-center mx-auto">
+                    <div class="d-flex flex-column align-items-center section-6-box pb-63 position-relative w-100">
                         <div class="section-6-icon d-flex justify-content-center align-items-center position-absolute">
                             <svg width="37" height="35" viewBox="0 0 37 35" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -354,8 +390,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 m-t-60 col-12">
-                    <div class="d-flex flex-column align-items-center section-6-box pb-63 position-relative">
+                <div class="col-lg-4 col-md-6 m-t-60 col-12 justify-content-center d-flex align-items-center mx-auto">
+                    <div class="d-flex flex-column align-items-center section-6-box pb-63 position-relative w-100">
                         <div class="section-6-icon d-flex justify-content-center align-items-center position-absolute">
                             <svg width="30" height="24" viewBox="0 0 30 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -375,8 +411,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-60 col-12">
-                    <div class="d-flex flex-column align-items-center section-6-box pb-73 position-relative">
+                <div class="col-lg-4 col-md-6 mt-60 col-12 justify-content-center d-flex align-items-center mx-auto">
+                    <div class="d-flex flex-column align-items-center section-6-box pb-73 position-relative w-100">
                         <div class="section-6-icon d-flex justify-content-center align-items-center position-absolute">
                             <svg width="28" height="36" viewBox="0 0 28 36" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -397,14 +433,15 @@
             </div>
         </div>
     </section>
-    <!-- ------------footer----------- -->
+    <!-- footer -->
     <footer class="bg-black">
         <div class="container mx-w-1140">
             <div class="row">
-                <div class="col-lg-5 col-md-6 md-center">
+                <div class="col-lg-5 col-md-4 md-center">
                     <div class="pt-65">
                         <img src="./assets/image/svg/footer-logo.svg" alt="logo-svg">
-                        <p class="fw-normal fs-sm lh-24 text-white mx-w-324 m-0 pt-3">Consectetur rnare consequat
+                        <p class="fw-normal fs-sm lh-24 text-white mx-w-324 m-0 pt-3 opacity-70">Consectetur rnare
+                            consequat
                             vehicula metus sit
                             rhoncus odio et amet.</p>
                         <div class="d-flex gap-3 mt-4 md-center">
@@ -441,13 +478,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-7 col-md-6 ">
+                <div class="col-lg-7 col-md-8 ">
                     <div class="pt-80 pb-164">
-                        <div class="row">
-                            <div class="col-2 justify-content-end d-flex">
+                        <div class="row justify-content-sm-center">
+                            <div class="col-sm-2 col-4 justify-content-sm-end justify-content-center d-flex">
                                 <ul class="list-unstyled">
                                     <li>
-                                        <p class="text-decoration-none fw-normal fs-sm lh-24 text-white" href="#">
+                                        <p class="text-decoration-none fw-normal fs-sm lh-24 text-white">
                                             Products</p>
                                     </li>
                                     <li class="pt-10">
@@ -468,10 +505,10 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-2 justify-content-end d-flex">
+                            <div class="col-sm-2 col-4 justify-content-sm-end justify-content-center d-flex">
                                 <ul class="list-unstyled">
                                     <li>
-                                        <p class="text-decoration-none fw-normal fs-sm lh-24 text-white" href="#">
+                                        <p class="text-decoration-none fw-normal fs-sm lh-24 text-white">
                                             About</p>
                                     </li>
                                     <li class="pt-10">
@@ -484,10 +521,10 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-2 justify-content-end d-flex">
+                            <div class="col-sm-2 col-4 justify-content-sm-end justify-content-center d-flex">
                                 <ul class="list-unstyled">
                                     <li>
-                                        <p class="text-decoration-none fw-normal fs-sm lh-24 text-white" href="#">
+                                        <p class="text-decoration-none fw-normal fs-sm lh-24 text-white">
                                             Contact</p>
                                     </li>
                                     <li class="pt-10">
@@ -504,10 +541,10 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-2 justify-content-end d-flex">
+                            <div class="col-sm-2 col-4 justify-content-sm-end justify-content-center d-flex pt-35">
                                 <ul class="list-unstyled">
                                     <li>
-                                        <p class="text-decoration-none fw-normal fs-sm lh-24 text-white" href="#">
+                                        <p class="text-decoration-none fw-normal fs-sm lh-24 text-white">
                                             Terms</p>
                                     </li>
                                     <li class="pt-10">
@@ -520,10 +557,10 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-2 justify-content-end d-flex">
+                            <div class="col-sm-2 col-4 justify-content-sm-end justify-content-center d-flex pt-35">
                                 <ul class="list-unstyled">
                                     <li>
-                                        <p class="text-decoration-none fw-normal fs-sm lh-24 text-white" href="#">
+                                        <p class="text-decoration-none fw-normal fs-sm lh-24 text-white">
                                             Privacy</p>
                                     </li>
 
